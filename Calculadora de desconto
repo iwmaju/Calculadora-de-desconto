@@ -1,0 +1,7 @@
+print ("Calculadora de desconto")
+
+valor = float (input("Digite o valor do produto:"))
+porcentagem = float (input("Digite o valor da porcentagem do desconto:"))
+desconto = valor - porcentagem / 100 * porcentagem
+
+print ("O preço total com o desconto é:", desconto)
